@@ -2,13 +2,15 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Your Landing Page",
-  description: "Start building your landing page here",
+  title: "OneFix Labs - Hair Regrowth System",
+  description: "Advanced hair regrowth system with micro-infusion technology. Stop hair loss and regrow thicker hair naturally.",
 };
 
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 };
 
 export default function RootLayout({
@@ -18,7 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-white">{children}</body>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      </head>
+      <body className="bg-white antialiased">{children}</body>
     </html>
   );
 }
