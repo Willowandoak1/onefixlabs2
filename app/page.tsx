@@ -803,7 +803,7 @@ export default function Page() {
             <div className="mt-12">
               <div className="relative max-w-4xl mx-auto">
                 <img 
-                  src="/images/ugc1.png" 
+                  src="/images/UGC1.png" 
                   alt="Product Image" 
                   className="w-full max-w-xl h-auto rounded-lg shadow-lg mx-auto"
                 />
