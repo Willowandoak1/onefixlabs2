@@ -964,9 +964,14 @@ export default function Page() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Top Banner */}
           <div className="bg-amber-600 text-white py-3 text-center mb-6 mt-12">
-            <p className="text-lg font-bold uppercase tracking-wide">
+            <a 
+              href="https://www.onefixlabs.com/products/onefix%E2%84%A2-advanced-micro-infusion-hair-regrowth-kit?variant=55476048822607" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-lg font-bold uppercase tracking-wide hover:underline cursor-pointer"
+            >
               TRY TODAY
-            </p>
+            </a>
           </div>
           
           <div className="text-center space-y-2">
