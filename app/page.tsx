@@ -1,6 +1,10 @@
 'use client'
 
+import { useState } from 'react'
+
 export default function Page() {
+  const [studyDropdownOpen, setStudyDropdownOpen] = useState(false)
+
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Header Banner - Dark Blue */}
@@ -662,12 +666,40 @@ export default function Page() {
                     This breakthrough helps men <span className="font-bold">stop hair loss instantly</span> and <span className="font-bold">accelerate hair growth</span>.
                   </p>
                 </div>
-                <button className="inline-flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors duration-200">
-                  <span>LINKED STUDY</span>
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
-                  </svg>
-                </button>
+                <div className="relative">
+                  <button 
+                    onClick={() => setStudyDropdownOpen(!studyDropdownOpen)}
+                    className="inline-flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors duration-200"
+                  >
+                    <span>LINKED STUDY</span>
+                    <svg 
+                      className={`w-4 h-4 transition-transform duration-200 ${studyDropdownOpen ? 'rotate-180' : ''}`} 
+                      fill="none" 
+                      stroke="currentColor" 
+                      viewBox="0 0 24 24"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                  </button>
+                  
+                  {/* Dropdown Menu */}
+                  {studyDropdownOpen && (
+                    <div className="absolute top-full left-0 mt-2 w-96 bg-white border border-gray-200 rounded-lg shadow-lg z-50 p-6">
+                      <h4 className="text-lg font-bold text-gray-900 mb-4">Study</h4>
+                      <div className="space-y-3 text-sm text-gray-700">
+                        <p className="italic">
+                          "It doesn't matter how strong your formula is if it never reaches the problem." – is the conclusion of the several new studies world renowned trichologist and dermatologists conducted.
+                        </p>
+                        <p>
+                          A study published in the Journal of Trichology and Cosmetology confirms that micro-needles enable deeper absorption, surpassing conventional hair loss treatments.
+                        </p>
+                        <p>
+                          This advanced delivery system is proven to neutralize DHT buildup, supply essential nutrients, and reactivate dormant follicles—making it significantly more effective than traditional solutions.
+                        </p>
+                      </div>
+                    </div>
+                  )}
+                </div>
               </div>
               
               {/* Right Column - Video */}
