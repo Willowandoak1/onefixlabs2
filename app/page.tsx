@@ -22,9 +22,14 @@ export default function Page() {
             </div>
             
             {/* Right - CTA Button */}
-            <button className="bg-yellow-400 hover:bg-yellow-300 text-black font-semibold px-6 py-3 rounded-lg transition-colors duration-200">
+            <a 
+              href="https://www.onefixlabs.com/products/onefix%E2%84%A2-advanced-micro-infusion-hair-regrowth-kit?variant=55476048822607" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-yellow-400 hover:bg-yellow-300 text-black font-semibold px-6 py-3 rounded-lg transition-colors duration-200 inline-block"
+            >
               Try OneFix Today
-            </button>
+            </a>
           </div>
         </div>
       </header>
