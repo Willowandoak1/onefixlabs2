@@ -23,7 +23,7 @@ export default function Page() {
             </div>
             
             {/* Center - Promotional Offer */}
-            <div className="text-lg sm:text-2xl font-bold text-center">
+            <div className="hidden sm:block text-lg sm:text-2xl font-bold text-center">
               Up to 70% off!
             </div>
             
