@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Header Banner - Dark Blue */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-blue-900 text-white py-2 shadow-lg">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-blue-700 text-white py-2 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-row items-center justify-between">
             {/* Left - Logo Only */}
@@ -672,7 +672,7 @@ export default function Page() {
                 <div className="relative">
                   <button 
                     onClick={() => setStudyDropdownOpen(!studyDropdownOpen)}
-                    className="inline-flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors duration-200"
+                    className="inline-flex items-center space-x-2 bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition-colors duration-200"
                   >
                     <span>LINKED STUDY</span>
                     <svg 
@@ -748,7 +748,7 @@ export default function Page() {
                 <div className="relative">
                   <button
                     onClick={() => setStudyDropdownOpen2(!studyDropdownOpen2)}
-                    className="inline-flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors duration-200"
+                    className="inline-flex items-center space-x-2 bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition-colors duration-200"
                   >
                     <span>LINKED STUDY</span>
                     <svg
@@ -797,7 +797,7 @@ export default function Page() {
                 <div className="relative">
                   <button
                     onClick={() => setStudyDropdownOpen3(!studyDropdownOpen3)}
-                    className="inline-flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors duration-200"
+                    className="inline-flex items-center space-x-2 bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition-colors duration-200"
                   >
                     <span>LINKED STUDY</span>
                     <svg
@@ -1051,7 +1051,7 @@ export default function Page() {
       <section className="py-0 bg-white -mt-4">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Top Banner */}
-          <div className="bg-amber-600 text-white py-3 text-center mb-6 mt-12">
+          <div className="bg-amber-600 text-white py-3 text-center mb-6 mt-12 shadow-xl rounded-lg transform hover:scale-105 transition-all duration-300">
             <a 
               href="https://www.onefixlabs.com/products/onefix%E2%84%A2-advanced-micro-infusion-hair-regrowth-kit?variant=55476048822607" 
               target="_blank" 
@@ -1146,7 +1146,7 @@ export default function Page() {
       </section>
 
       {/* Footer Section - Dark Blue Background */}
-      <footer className="bg-blue-900 text-white py-16">
+      <footer className="bg-blue-700 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
           
