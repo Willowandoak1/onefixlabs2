@@ -46,7 +46,7 @@ export default function Page() {
           <div className="grid lg:grid-cols-2 gap-4 lg:gap-16 items-start">
             
             {/* Left Column - Text Content */}
-            <div className="space-y-2 sm:space-y-6 pt-2 sm:pt-8">
+            <div className="space-y-2 sm:space-y-6 pt-0 sm:pt-8">
               {/* Question/Category */}
               <div className="text-lg font-medium text-gray-700">
                 ARE YOU LOSING HAIR?
