@@ -41,12 +41,12 @@ export default function Page() {
       </header>
 
       {/* Main Content Area */}
-      <main className="py-16">
+      <main className="py-8 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16 items-start">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
             
             {/* Left Column - Text Content */}
-            <div className="space-y-8 pt-8">
+            <div className="space-y-4 sm:space-y-8 pt-4 sm:pt-8">
               {/* Question/Category */}
               <div className="text-lg font-medium text-gray-700">
                 ARE YOU LOSING HAIR?
@@ -58,7 +58,7 @@ export default function Page() {
               </h1>
               
               {/* Benefits List */}
-              <div className="space-y-4">
+              <div className="space-y-3 sm:space-y-4">
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <svg className="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
