@@ -12,7 +12,7 @@ export default function Page() {
       {/* Header Banner - Dark Blue */}
       <header className="bg-blue-900 text-white py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row items-center justify-between space-y-2 sm:space-y-0">
+          <div className="flex flex-row items-center justify-between">
             {/* Left - Logo Only */}
             <div className="flex items-center">
               <img 
