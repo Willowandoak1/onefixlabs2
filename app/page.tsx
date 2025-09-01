@@ -131,40 +131,40 @@ export default function Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-lg font-medium text-gray-700 mb-8">As seen in:</h2>
-            <div className="flex items-center justify-center space-x-12 opacity-80">
+            <div className="flex items-center justify-center space-x-4 sm:space-x-8 lg:space-x-12 opacity-80 flex-wrap">
               {/* Forbes Logo */}
               <img 
                 src="/images/3.png" 
                 alt="Forbes" 
-                className="h-28 w-auto object-contain"
+                className="h-16 sm:h-20 lg:h-28 w-auto object-contain"
               />
               
               {/* Men's Health Logo */}
               <img 
                 src="/images/4.png" 
                 alt="Men's Health" 
-                className="h-28 w-auto object-contain"
+                className="h-16 sm:h-20 lg:h-28 w-auto object-contain"
               />
               
               {/* SPY Logo */}
               <img 
                 src="/images/5.png" 
                 alt="SPY" 
-                className="h-28 w-auto object-contain"
+                className="h-16 sm:h-20 lg:h-28 w-auto object-contain"
               />
               
               {/* Rolling Stone Logo */}
               <img 
                 src="/images/6.png" 
                 alt="Rolling Stone" 
-                className="h-28 w-auto object-contain"
+                className="h-16 sm:h-20 lg:h-28 w-auto object-contain"
               />
               
               {/* GQ Logo */}
               <img 
                 src="/images/9.png" 
                 alt="GQ" 
-                className="h-28 w-auto object-contain"
+                className="h-16 sm:h-20 lg:h-28 w-auto object-contain"
               />
             </div>
           </div>
@@ -185,7 +185,8 @@ export default function Page() {
             {/* Introductory Text */}
             <div className="max-w-4xl mx-auto space-y-4">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Did You Know? <span className="font-bold">86% of Men</span> experience <span className="font-bold">thinning hair</span>, a <span className="font-bold">receding hairline</span>, and <span className="font-bold">balf spots</span> before their 30s...
+                Did You Know? <span className="font-bold">86% of Men</span> experience <span className="font-bold">thinning hair</span>, a <span className="font-bold">receding hairline</span>, and <span className="font-bold">bald
+                   spots</span> before their 30s...
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
