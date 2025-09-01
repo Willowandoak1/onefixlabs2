@@ -41,14 +41,14 @@ export default function Page() {
       </header>
 
       {/* Main Content Area */}
-      <main className="pt-20 sm:pt-24 py-2 sm:py-8">
+      <main className="pt-16 sm:pt-20 py-2 sm:py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-4 lg:gap-16 items-start">
             
             {/* Left Column - Text Content */}
-            <div className="space-y-2 sm:space-y-6 pt-4 sm:pt-8">
+            <div className="space-y-2 sm:space-y-6">
               {/* Question/Category */}
-              <div className="text-lg font-medium text-gray-700 mt-4">
+              <div className="text-lg font-medium text-gray-700">
                 ARE YOU LOSING HAIR?
               </div>
               
