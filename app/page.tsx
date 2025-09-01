@@ -1041,7 +1041,7 @@ export default function Page() {
         </div>
         
         {/* Bottom CTA Button */}
-        <div className="mt-8 text-center">
+        <div className="mt-8 mb-12 text-center">
           <button className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-4 px-12 rounded-lg text-lg uppercase tracking-wide transition-colors duration-200">
             TRY TODAY
           </button>
