@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Header Banner - Dark Blue */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-blue-700 text-white py-1 shadow-lg">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-blue-700 text-white py-0 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-row items-center justify-between">
             {/* Left - Logo Only */}
@@ -18,7 +18,7 @@ export default function Page() {
               <img 
                 src="/images/logowhite.png" 
                 alt="ONEFIX LABS Logo" 
-                className="h-12 sm:h-20 w-auto"
+                className="h-10 sm:h-16 w-auto"
               />
             </div>
             
@@ -41,7 +41,7 @@ export default function Page() {
       </header>
 
       {/* Main Content Area */}
-      <main className="pt-12 sm:pt-16 py-2 sm:py-8">
+      <main className="pt-10 sm:pt-14 py-2 sm:py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-4 lg:gap-16 items-start">
             
