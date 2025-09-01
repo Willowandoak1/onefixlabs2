@@ -18,7 +18,7 @@ export default function Page() {
               <img 
                 src="/images/logowhite.png" 
                 alt="ONEFIX LABS Logo" 
-                className="h-20 sm:h-32 w-auto"
+                className="h-16 sm:h-32 w-auto"
               />
             </div>
             
@@ -32,7 +32,7 @@ export default function Page() {
               href="https://www.onefixlabs.com/products/onefix%E2%84%A2-advanced-micro-infusion-hair-regrowth-kit?variant=55476048822607" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-yellow-400 hover:bg-yellow-300 text-black font-semibold px-4 sm:px-6 py-2 sm:py-3 rounded-lg transition-colors duration-200 inline-block text-sm sm:text-base"
+              className="bg-yellow-400 hover:bg-yellow-300 text-black font-semibold px-3 sm:px-6 py-2 sm:py-3 rounded-lg transition-colors duration-200 inline-block text-xs sm:text-base whitespace-nowrap"
             >
               Try OneFix Today
             </a>
