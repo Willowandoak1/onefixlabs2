@@ -41,7 +41,7 @@ export default function Page() {
       </header>
 
       {/* Main Content Area */}
-      <main className="pt-16 sm:pt-20 py-2 sm:py-8">
+      <main className="pt-12 sm:pt-16 py-2 sm:py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-4 lg:gap-16 items-start">
             
