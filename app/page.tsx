@@ -240,7 +240,7 @@ export default function Page() {
                   </svg>
                 </div>
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  Research reveals that <span className="font-bold">8 out of 10 men</span> have dangerously high levels of DHT, a hormone that's suffocating their hair follicles and preventing them from getting the nutrients they need to thrive.
+                  Research reveals that <span className="font-bold">8 out of 10 men</span> have dangerously high levels of DHT, a hormone that&apos;s suffocating their hair follicles and preventing them from getting the nutrients they need to thrive.
                 </p>
               </div>
             </div>
@@ -660,7 +660,7 @@ export default function Page() {
                 </h3>
                 <div className="space-y-4">
                   <p className="text-lg text-gray-700 leading-relaxed">
-                  To effectively address the root cause of hair loss, surface-level application simply isn't enough.
+                  To effectively address the root cause of hair loss, surface-level application simply isn&apos;t enough.
                   </p>
                   <p className="text-lg text-gray-700 leading-relaxed">
                     <span className="font-bold">Micro-Infusion Technology</span> creates <span className="font-bold">microscopic channels</span>in the scalp, enhancing ingredient absorption by up to <span className="font-bold">300%</span> and delivering <span className="font-bold">10-15x more active compounds</span> directly to the follicles
@@ -691,7 +691,7 @@ export default function Page() {
                       <h4 className="text-lg font-bold text-gray-900 mb-4">Study</h4>
                       <div className="space-y-3 text-sm text-gray-700">
                         <p className="italic">
-                          &ldquo;It doesn’t matter how powerful your formula is if it can’t reach the root of the problem." This is the conclusion drawn from recent studies conducted by leading trichologists and dermatologists.
+                          &ldquo;It doesn&apos;t matter how powerful your formula is if it can&apos;t reach the root of the problem.&rdquo; This is the conclusion drawn from recent studies conducted by leading trichologists and dermatologists.
                         </p>
                         <p>
                         A study published in the Journal of Trichology and Cosmetology confirms that micro-needles significantly enhance absorption, far outperforming conventional hair loss treatments.
@@ -1092,7 +1092,7 @@ export default function Page() {
                 
                 <div className="space-y-1">
                   <p className="text-lg text-gray-700 leading-tight">
-                  We believe in OneFix™ so much that we won’t charge you a dime until you're 100% sure it works for you.
+                  We believe in OneFix™ so much that we won&apos;t charge you a dime until you&apos;re 100% sure it works for you.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-tight">
