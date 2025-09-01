@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Header Banner - Dark Blue */}
-      <header className="bg-blue-900 text-white py-2">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-blue-900 text-white py-2 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-row items-center justify-between">
             {/* Left - Logo Only */}
@@ -41,7 +41,7 @@ export default function Page() {
       </header>
 
       {/* Main Content Area */}
-      <main className="py-2 sm:py-8">
+      <main className="pt-20 sm:pt-24 py-2 sm:py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-4 lg:gap-16 items-start">
             
