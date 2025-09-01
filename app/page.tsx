@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Header Banner - Dark Blue */}
-      <header className="bg-blue-900 text-white py-4">
+      <header className="bg-blue-900 text-white py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             {/* Left - Logo Only */}
@@ -18,12 +18,12 @@ export default function Page() {
               <img 
                 src="/images/logowhite.png" 
                 alt="ONEFIX LABS Logo" 
-                className="h-24 w-auto"
+                className="h-32 w-auto"
               />
             </div>
             
             {/* Center - Promotional Offer */}
-            <div className="text-lg font-medium">
+            <div className="text-2xl font-bold">
               Up to 70% off!
             </div>
             
@@ -43,10 +43,10 @@ export default function Page() {
       {/* Main Content Area */}
       <main className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
             
             {/* Left Column - Text Content */}
-            <div className="space-y-8">
+            <div className="space-y-8 pt-8">
               {/* Question/Category */}
               <div className="text-lg font-medium text-gray-700">
                 ARE YOU LOSING HAIR?
@@ -54,7 +54,7 @@ export default function Page() {
               
               {/* Main Headline */}
               <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                Stop Hair Loss and Regrow Thicker Hair in Just Weeks
+                Reverse Hair Loss & See Thicker Growth In Weeks
               </h1>
               
               {/* Benefits List */}
@@ -66,7 +66,7 @@ export default function Page() {
                     </svg>
                   </div>
                   <span className="text-gray-700 leading-relaxed">
-                    Eliminate the root cause of thinning hair and activate regrowth.
+                    Addresses the underlying cause of thinning, not just the symptoms.
                   </span>
                 </div>
                 
@@ -77,7 +77,7 @@ export default function Page() {
                     </svg>
                   </div>
                   <span className="text-gray-700 leading-relaxed">
-                    Clinically proven to reverse hair loss caused by Genetics, DHT, Stress, Diet, Aging, and more.
+                    Scientifically validated to work against genetic hair loss, DHT buildup, stress, nutrition gaps, and age-related thinning
                   </span>
                 </div>
                 
@@ -88,7 +88,8 @@ export default function Page() {
                     </svg>
                   </div>
                   <span className="text-gray-700 leading-relaxed">
-                    Painless and takes 1 minute to apply
+                    Gentle, painless application in 1 minute. 
+                  
                   </span>
                 </div>
                 
@@ -99,7 +100,7 @@ export default function Page() {
                     </svg>
                   </div>
                   <span className="text-gray-700 leading-relaxed">
-                    Long-lasting and sustainable results for longer, more youthful hair.
+                    Supports long-term follicle health for denser, stronger hair.
                   </span>
                 </div>
               </div>
@@ -118,7 +119,7 @@ export default function Page() {
               
               {/* Customer Satisfaction Callout */}
               <button className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium px-6 py-3 rounded-lg transition-colors duration-200">
-                ✨ 22429+ Men Love OneFix Labs ✨
+                ✨ 55981+ Men Love OneFix Labs ✨
               </button>
             </div>
           </div>
@@ -135,35 +136,35 @@ export default function Page() {
               <img 
                 src="/images/3.png" 
                 alt="Forbes" 
-                className="h-20 w-auto object-contain"
+                className="h-28 w-auto object-contain"
               />
               
               {/* Men's Health Logo */}
               <img 
                 src="/images/4.png" 
                 alt="Men's Health" 
-                className="h-20 w-auto object-contain"
+                className="h-28 w-auto object-contain"
               />
               
               {/* SPY Logo */}
               <img 
                 src="/images/5.png" 
                 alt="SPY" 
-                className="h-20 w-auto object-contain"
+                className="h-28 w-auto object-contain"
               />
               
               {/* Rolling Stone Logo */}
               <img 
                 src="/images/6.png" 
                 alt="Rolling Stone" 
-                className="h-20 w-auto object-contain"
+                className="h-28 w-auto object-contain"
               />
               
               {/* GQ Logo */}
               <img 
                 src="/images/9.png" 
                 alt="GQ" 
-                className="h-20 w-auto object-contain"
+                className="h-28 w-auto object-contain"
               />
             </div>
           </div>
@@ -178,17 +179,17 @@ export default function Page() {
           <div className="text-center space-y-8">
             {/* Main Headline */}
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              Don&apos;t Let Hair Loss Take Away Your Confidence
+              Say Goodbye to Hair Loss and Hello to Confidence
             </h2>
             
             {/* Introductory Text */}
             <div className="max-w-4xl mx-auto space-y-4">
               <p className="text-lg text-gray-700 leading-relaxed">
-                You&apos;re not alone. <span className="font-bold">86% of men</span> struggle with the frustration of <span className="font-bold">thinning hair</span>, a <span className="font-bold">receding hairline</span>, and <span className="font-bold">embarrassing bald spots</span> as early as their late 20s...
+                Did You Know? <span className="font-bold">86% of Men</span> experience <span className="font-bold">thinning hair</span>, a <span className="font-bold">receding hairline</span>, and <span className="font-bold">balf spots</span> before their 30s...
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                ...The daily anxiety of seeing your <span className="font-bold">hairline slowly retreat in the mirror</span>, feeling self-conscious about <span className="font-bold">thinning strands</span> and <span className="font-bold">exposed scalp</span>, and watching your hair lose its <span className="font-bold">volume</span> and <span className="font-bold">density</span> every day.
+                ...The daily anxiety of seeing your <span className="font-bold">hairline fade away</span>, feeling inesecure about your <span className="font-bold">thinning strands</span> and <span className="font-bold">exposed scalp</span>, and watching your hair lose thickness <span className="font-bold"></span> and <span className="font-bold">fullness</span> with every glance in the mirror.
               </p>
             </div>
             
@@ -211,35 +212,35 @@ export default function Page() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-0">
             {/* Main Title */}
-            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              Scientific Research Exposes the Real Cause of Hair Loss
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-8">
+              New Scientific Findings Uncover the Root Cause of Hair Loss
             </h2>
             
             {/* Introductory Paragraphs */}
             <div className="max-w-4xl mx-auto space-y-6 text-left">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Leading hair loss experts have uncovered the #1 cause of hair loss: <span className="font-bold">DHT (Dihydrotestosterone)</span> a hormone silently attacking your hair follicles right now as you&apos;re reading.
+              Top hair loss experts have identified the leading cause of hair loss: <span className="font-bold">DHT (Dihydrotestosterone)</span> This hormone is silently attacking your hair follicles right now, as you read this.
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                It creates a &quot;stranglehold effect&quot; blocking vital nutrients from reaching your hair follicles and weakening them over time. Starved of what they need to survive, <span className="font-bold">your follicles shrink daily until they completely die.</span>
+              DHT creates a suffocating “stranglehold” on your follicles, cutting off the vital nutrients they need to stay strong. Over time, this starvation causes your follicles to shrink, <span className="font-bold">weakening them until they eventually die.</span>
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                This process comes with <span className="font-bold">daily warning signs: hair shedding, a receding hairline, thinning strands,</span> and <span className="font-bold">visible scalp patches.</span>
+              The signs are clear and visible: <span className="font-bold">daily hair shedding, a retreating hairline, thinning strands,</span> and patches of exposed scalp—<span className="font-bold">each one a warning that your follicles are under attack.</span>
               </p>
             </div>
             
             {/* Highlighted Warning Box */}
             <div className="mt-12 max-w-3xl mx-auto">
-              <div className="bg-pink-100 border border-pink-200 rounded-lg p-8 text-center">
+              <div className="bg-pink-100 border border-pink-200 rounded-lg p-8 text-center mx-4 my-4">
                 <div className="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd"></path>
                   </svg>
                 </div>
                 <p className="text-lg text-gray-800 leading-relaxed">
-                  Studies show that <span className="font-bold">8 out of 10 men</span> have excessive DHT levels that are literally suffocating their hair follicles.
+                  Research reveals that <span className="font-bold">8 out of 10 men</span> have dangerously high levels of DHT, a hormone that's suffocating their hair follicles and preventing them from getting the nutrients they need to thrive.
                 </p>
               </div>
             </div>
@@ -247,7 +248,7 @@ export default function Page() {
             {/* Consequences/Symptoms List */}
             <div className="mt-12 max-w-4xl mx-auto text-left">
               <p className="text-lg text-gray-700 mb-6">
-                Your hair is literally being starved of what it needs, leading to:
+              Your hair is being deprived of essential nutrients, resulting in:
               </p>
               
               <div className="space-y-4">
@@ -258,7 +259,7 @@ export default function Page() {
                     </svg>
                   </div>
                   <span className="text-lg text-gray-700 leading-relaxed">
-                    Embarrassing thin patches that make you look older than you are
+                  Noticeable thinning patches that make you appear older than you feel
                   </span>
                 </div>
                 
@@ -269,7 +270,7 @@ export default function Page() {
                     </svg>
                   </div>
                   <span className="text-lg text-gray-700 leading-relaxed">
-                    Excessive shedding that leaves hair all over your pillow and shower
+                  Constant shedding, with strands left behind on your pillow and in the shower
                   </span>
                 </div>
                 
@@ -280,7 +281,7 @@ export default function Page() {
                     </svg>
                   </div>
                   <span className="text-lg text-gray-700 leading-relaxed">
-                    A receding hairline that&apos;s impossible to hide or style around
+                  A receding hairline that becomes harder to cover or conceal
                   </span>
                 </div>
                 
@@ -291,7 +292,7 @@ export default function Page() {
                     </svg>
                   </div>
                   <span className="text-lg text-gray-700 leading-relaxed">
-                    Progressive DHT buildup that slowly suffocates and weakens your follicles
+                  Accumulating DHT buildup, gradually suffocating and weakening your follicles
                   </span>
                 </div>
               </div>
@@ -301,16 +302,16 @@ export default function Page() {
       </section>
 
       {/* DHT Percentage Chart Section */}
-      <section className="py-20 bg-white">
+      <section className="py-8 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-8">
+          <div className="text-center space-y-4">
             {/* Chart Title */}
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
               PERCENTAGE OF DHT IN THE SCALP
             </h2>
             
             {/* DHT Chart Image */}
-            <div className="mt-12">
+            <div className="mt-4">
               <div className="relative max-w-4xl mx-auto">
                 <img 
                   src="/images/chart1.png" 
@@ -323,7 +324,7 @@ export default function Page() {
             {/* Description Text */}
             <div className="mt-8 max-w-3xl mx-auto">
               <p className="text-lg text-gray-700 leading-relaxed">
-                This chart demonstrates the dramatic increase in DHT levels as men age, showing how the hormone progressively attacks hair follicles over time.
+              This chart illustrates how DHT levels rise with age, highlighting the gradual attack on hair follicles and the increasing impact over time.
               </p>
             </div>
           </div>
@@ -336,7 +337,7 @@ export default function Page() {
           <div className="text-center space-y-8">
             {/* Main Title */}
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              Breakthrough Discovery: Why 99% of Hair Loss Treatments Are Useless
+            The Truth Behind Hair Loss Treatments: Why 99% Are Ineffective
             </h2>
             
             {/* Warning/Information Box */}
@@ -349,10 +350,10 @@ export default function Page() {
                 </div>
                 <div className="space-y-4 text-left">
                   <p className="text-lg text-gray-800 leading-relaxed">
-                    According to <span className="font-bold">Harvard Health</span>, our roots can absorb <span className="font-bold">only 15%</span> of the ingredients applied on the scalp, and <span className="font-bold">up to 25%</span> if ingested as pills. But in the case of hair loss shampoos? <span className="font-bold">0%!</span>
+                    <span className="font-bold">Harvard Health</span> reports that our hair follicles can absorb <span className="font-bold">just 15%</span> of the ingredients applied topically to the scalp, and <span className="font-bold">up to 25%</span> when taken orally. But when it comes to hair loss shampoos? The absorption rate is <span className="font-bold">zero!</span>
                   </p>
                   <p className="text-lg text-gray-800 leading-relaxed">
-                    That means most of the formula is <span className="font-bold">completely wasted</span>—never reaching the DHT buildup where the real damage happens.
+                  This means the majority of the active ingredients are <span className="font-bold">lost</span>—never reaching the DHT buildup where the real damage to your follicles occurs.
                   </p>
                 </div>
               </div>
@@ -361,31 +362,31 @@ export default function Page() {
             {/* Subsequent Text Content */}
             <div className="mt-12 max-w-4xl mx-auto space-y-6 text-left">
               <p className="text-lg text-gray-700 leading-relaxed">
-                See, 99% of so-called &quot;<span className="font-bold">hair thickening</span>&quot; and &quot;<span className="font-bold">hair restoring</span>&quot; treatments never reach the root cause of the problem. The issue? These treatments are applied on the surface of the skin, your scalp.
+              The problem with 99% of &quot;<span className="font-bold">hair thickening</span>&quot; and &quot;<span className="font-bold">restoring</span>&quot; treatments treatments is that they never target the root cause. These products are designed to sit on the surface of your scalp, leaving the real issue unaddressed.
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                Serums? Barely penetrate.
+                Serums? They barely penetrate deep enough.
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                Supplements? Absorb too little to make a real impact.
+                Supplements? They don’t absorb enough to make a noticeable difference.
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                And hair loss shampoos? You <span className="font-bold">wash them off</span> before they even have a chance to work!
+              Hair loss shampoos? You <span className="font-bold">wash them out</span> before they can do anything!
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                <span className="font-bold">How stupid is that?!</span>
+                <span className="font-bold">It’s almost unbelievable, isn’t it?!</span>
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                So, as you can imagine, there is <span className="font-bold">no real effect</span>. No thickening. No regrowth. No restoration. Absolutely nothing.
+              As a result, these treatments have <span className="font-bold">little to no impact.</span>. No thickening. No regrowth. No restoration. Simply put, they don’t work.
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                Meanwhile, <span className="font-bold">DHT levels continue rising</span>, accelerating hair loss every single day. And by the time men realize it, it&apos;s often too late.
+                Meanwhile, <span className="font-bold">DHT levels keep rising</span>, worsening hair loss day by day. And by the time most men notice, it’s often already too late.
               </p>
             </div>
           </div>
@@ -410,7 +411,7 @@ export default function Page() {
             {/* Description Text */}
             <div className="mt-4 max-w-3xl mx-auto">
               <p className="text-lg text-gray-700 leading-relaxed">
-                This scientific illustration demonstrates how traditional topical treatments fail to penetrate deep enough to reach the hair follicles where DHT damage occurs.
+              This scientific illustration shows how traditional topical treatments fail to penetrate deep enough to target the hair follicles, where DHT causes the most damage.
               </p>
             </div>
           </div>
@@ -418,23 +419,23 @@ export default function Page() {
       </section>
 
       {/* DANGER: Every Day You Delay Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-4 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-8">
             {/* Main Title */}
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              DANGER: Every Day You Delay, DHT Strengthens Its Grip
+              WARNING: Every Day You Wait, DHT Tightens its Hold
             </h2>
             
             {/* Subtitle */}
             <h3 className="text-2xl lg:text-3xl font-bold text-gray-900">
-              Your Hair Loss Is Getting Worse As You Read This...
+              Your Hair Loss Worsens As You Read This...
             </h3>
             
             {/* Introductory Paragraph */}
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-gray-700 leading-relaxed">
-                At the International Hair Science Symposium, experts revealed a shocking truth —once DHT starts attacking your hair follicles, without immediate action:
+                At the International Hair Science Symposium, experts uncovered a startling truth — once DHT begins to attack your hair follicles, without swift intervention:
               </p>
             </div>
             
@@ -445,7 +446,7 @@ export default function Page() {
                   <span className="text-white font-bold text-xl">✕</span>
                 </div>
                 <span className="text-lg text-gray-700 leading-relaxed">
-                  Your follicles will completely die, making regrowth nearly impossible
+                Your follicles may shut down completely, making regrowth nearly impossible
                 </span>
               </div>
               
@@ -454,7 +455,7 @@ export default function Page() {
                   <span className="text-white font-bold text-xl">✕</span>
                 </div>
                 <span className="text-lg text-gray-700 leading-relaxed">
-                  Thinning speeds up, leaving hair weaker by the day
+                Thinning accelerates, causing your hair to weaken more each day
                 </span>
               </div>
               
@@ -463,7 +464,7 @@ export default function Page() {
                   <span className="text-white font-bold text-xl">✕</span>
                 </div>
                 <span className="text-lg text-gray-700 leading-relaxed">
-                  Your confident, youthful hair becomes a thing of the past
+                The vibrant, youthful hair you once had will fade away
                 </span>
               </div>
             </div>
@@ -488,13 +489,13 @@ export default function Page() {
           <div className="text-center space-y-2">
             {/* Main Title */}
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              The First True Breakthrough in Hair Regrowth: Stronger, Faster, Proven
+            The First Real Solution for Hair Regrowth: Proven, Faster, and Stronger Than Ever
             </h2>
             
             {/* Introductory Paragraph */}
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-gray-700 leading-relaxed">
-                A groundbreaking scientific breakthrough published in the International Journal of Hair Restoration has uncovered a clinically proven solution to stop hair loss for good: <span className="font-bold">Micro-Infusion Hair System</span>
+              The International Journal of Hair Restoration Reveals a Game-Changing Solution to End Hair Loss: <span className="font-bold">The Clinically Proven Micro-Infusion Hair System</span>
               </p>
             </div>
             
@@ -524,7 +525,7 @@ export default function Page() {
       </section>
 
       {/* Micro-Infusion & AlphaInfuse™ Results Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-4 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-8">
             {/* Light Green Banner with Checkmark */}
@@ -535,7 +536,7 @@ export default function Page() {
                 </svg>
               </div>
               <p className="text-lg text-gray-800 leading-relaxed">
-                The key? A <span className="font-bold">high-absorption</span> delivery system called <span className="font-bold">Micro-Infusion</span>, paired with a clinically backed formula that penetrates deep beneath the scalp neutralizing DHT and delivering vital nutrients directly to your hair follicles.
+                The secret lies in a <span className="font-bold">cutting-edge</span> high-absorption delivery system called <span className="font-bold">Micro-Infusion</span>, combined with a clinically proven formula that deeply penetrates the scalp. This powerful system neutralizes DHT and delivers essential nutrients directly to your hair follicles, restoring their health and vitality.
               </p>
             </div>
             
@@ -555,7 +556,7 @@ export default function Page() {
                   </svg>
                 </div>
                 <span className="text-lg text-gray-700 leading-relaxed">
-                  <span className="font-bold">300% increase</span> in formula absorption
+                  <span className="font-bold">300% increase</span> Formula Absorption for deeper, more effective results
                 </span>
               </div>
               
@@ -566,7 +567,7 @@ export default function Page() {
                   </svg>
                 </div>
                 <span className="text-lg text-gray-700 leading-relaxed">
-                  <span className="font-bold">5X faster</span> hair growth with micro-needle stimulation
+                  <span className="font-bold">5X faster</span> Hair Growth thanks to powerful micro-needle stimulation
                 </span>
               </div>
               
@@ -577,7 +578,7 @@ export default function Page() {
                   </svg>
                 </div>
                 <span className="text-lg text-gray-700 leading-relaxed">
-                  <span className="font-bold">75% increase</span> in hair thickness
+                  <span className="font-bold">75% boost</span> in Hair Thickness, visibly fuller and healthier strands
                 </span>
               </div>
               
@@ -588,7 +589,7 @@ export default function Page() {
                   </svg>
                 </div>
                 <span className="text-lg text-gray-700 leading-relaxed">
-                  Neutralizes DHT to protect and revive your hair follicles
+                Neutralizes DHT to protect and revitalize your hair follicles
                 </span>
               </div>
               
@@ -599,7 +600,7 @@ export default function Page() {
                   </svg>
                 </div>
                 <span className="text-lg text-gray-700 leading-relaxed">
-                  Dramatical increase in overall hair density
+                Dramatic Improvement in Hair Density, for a fuller, thicker look
                 </span>
               </div>
               
@@ -610,7 +611,7 @@ export default function Page() {
                   </svg>
                 </div>
                 <span className="text-lg text-gray-700 leading-relaxed">
-                  Fills in embarrassing thin spots, restores receding hairline, with strong new growth
+                Restores Receding Hairlines and Fills Thin Spots with strong, new growth
                 </span>
               </div>
               
@@ -621,7 +622,7 @@ export default function Page() {
                   </svg>
                 </div>
                 <span className="text-lg text-gray-700 leading-relaxed">
-                  Transforms weak, lifeless strands into thick, healthy hair
+                Transforms Fragile, Lifeless Strands into thick, vibrant hair
                 </span>
               </div>
             </div>
@@ -629,7 +630,7 @@ export default function Page() {
             {/* Concluding Paragraph */}
             <div className="mt-12 max-w-4xl mx-auto">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Now, thanks to this discovery, the <span className="font-bold">OneFix™ Lab&apos;s Hair Regrowth System</span> has helped thousands of men regrow the hair they thought was gone forever. It&apos;s hands down the most effective hair restoration system ever developed.
+              Thanks to this groundbreaking discovery, the <span className="font-bold">OneFix™ Lab&apos;s Hair Regrowth System</span> has helped thousands of men restore the hair they believed was lost forever. It’s undeniably the most powerful and effective hair restoration solution ever created.
               </p>
             </div>
           </div>
@@ -637,13 +638,13 @@ export default function Page() {
       </section>
 
       {/* Enhanced 3 Scientific Innovations Section with Images */}
-      <section className="py-2 bg-white">
+      <section className="pt-8 pb-2 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-2">
             {/* Main Header */}
             <div className="mb-2">
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">
-                Get Thicker, Attractive Hair Fast
+                Unlock Thicker, More Attractive Hair Fast
               </h2>
               <p className="text-xl text-gray-600">
                 The 3 scientific innovations behind Onefix™ Hair Regrowth System
@@ -659,13 +660,13 @@ export default function Page() {
                 </h3>
                 <div className="space-y-4">
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    Delivering key ingredients to the root of hair loss requires more than just surface application.
+                  To effectively address the root cause of hair loss, surface-level application simply isn't enough.
                   </p>
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    <span className="font-bold">Micro-Infusion Technology</span> creates <span className="font-bold">tiny scalp channels</span>, boosting absorption by up to <span className="font-bold">300%</span> and delivering <span className="font-bold">10-15x more active ingredients</span> where needed most.
+                    <span className="font-bold">Micro-Infusion Technology</span> creates <span className="font-bold">microscopic channels</span>in the scalp, enhancing ingredient absorption by up to <span className="font-bold">300%</span> and delivering <span className="font-bold">10-15x more active compounds</span> directly to the follicles
                   </p>
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    This breakthrough helps men <span className="font-bold">stop hair loss instantly</span> and <span className="font-bold">accelerate hair growth</span>.
+                  This revolutionary breakthrough not only <span className="font-bold">halts hair loss instantly</span> but also accelerates <span className="font-bold">hair growth for visible results</span>.
                   </p>
                 </div>
                 <div className="relative">
@@ -690,13 +691,13 @@ export default function Page() {
                       <h4 className="text-lg font-bold text-gray-900 mb-4">Study</h4>
                       <div className="space-y-3 text-sm text-gray-700">
                         <p className="italic">
-                          &ldquo;It doesn&apos;t matter how strong your formula is if it never reaches the problem.&rdquo; – is the conclusion of the several new studies world renowned trichologist and dermatologists conducted.
+                          &ldquo;It doesn’t matter how powerful your formula is if it can’t reach the root of the problem." This is the conclusion drawn from recent studies conducted by leading trichologists and dermatologists.
                         </p>
                         <p>
-                          A study published in the Journal of Trichology and Cosmetology confirms that micro-needles enable deeper absorption, surpassing conventional hair loss treatments.
+                        A study published in the Journal of Trichology and Cosmetology confirms that micro-needles significantly enhance absorption, far outperforming conventional hair loss treatments.
                         </p>
                         <p>
-                          This advanced delivery system is proven to neutralize DHT buildup, supply essential nutrients, and reactivate dormant follicles—making it significantly more effective than traditional solutions.
+                        This innovative delivery system is clinically proven to neutralize DHT buildup, nourish the scalp with essential nutrients, and reactivate dormant follicles—making it vastly more effective than traditional approaches.
                         </p>
                       </div>
                     </div>
@@ -738,10 +739,10 @@ export default function Page() {
                 </h3>
                 <div className="space-y-4">
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    The <span className="font-bold">OneFix™ Hair Regrowth System</span> features a clinically proven natural blend with zero side effects.
+                    The <span className="font-bold">OneFix™ Hair Regrowth System</span> combines a clinically proven natural blend, delivering real results without any side effects.
                   </p>
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    <span className="font-bold">Panax Ginseng</span> eliminates DHT and promotes regrowth, <span className="font-bold">Eclipta Prostrata Extract</span> accelerates follicle regeneration, and <span className="font-bold">Peppermint Oil & Ginger Root Extract</span> improve circulation and create the ideal scalp environment.
+                    <span className="font-bold">Apigenin -</span> interrupts PGD2. <span className="font-bold">Saw Palmetto -</span> the enzyme that converts testosterone into DHT and, <span className="font-bold">Caffeine -</span> Stimulates hair follicles and counteract the effects of DHT.
                   </p>
                 </div>
                 <div className="relative">
@@ -766,13 +767,10 @@ export default function Page() {
                       <h4 className="text-lg font-bold text-gray-900 mb-4">Study</h4>
                       <div className="space-y-3 text-sm text-gray-700">
                         <p className="italic">
-                          &ldquo;It doesn&apos;t matter how strong your formula is if it never reaches the problem.&rdquo; – is the conclusion of the several new studies world renowned trichologist and dermatologists conducted.
+                          A comprehensive review published in the Journal of Trichology confirms that Apigenin enhances scalp circulation, promoting a steady supply of oxygen and essential nutrients to hair follicles, which may support healthier hair growth.
                         </p>
                         <p>
-                          A study published in the Journal of Trichology and Cosmetology confirms that micro-needles enable deeper absorption, surpassing conventional hair loss treatments.
-                        </p>
-                        <p>
-                          This advanced delivery system is proven to neutralize DHT buildup, supply essential nutrients, and reactivate dormant follicles—making it significantly more effective than traditional solutions.
+                        Studies show that Saw Palmetto helps accelerate the hair growth cycle by reducing DHT levels, leading to faster regrowth. This effect outperforms traditional treatments like 2% Minoxidil in promoting stronger, thicker hair.
                         </p>
                       </div>
                     </div>
@@ -790,10 +788,10 @@ export default function Page() {
                 </h3>
                 <div className="space-y-4">
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    Micro-needles stimulate the scalp for accelerated hair growth beyond just absorption.
+                  Micro-needles do more than enhance absorption—they actively stimulate the scalp to boost hair growth.
                   </p>
                   <p className="text-lg text-gray-700 leading-relaxed">
-                    <span className="font-bold">Tiny punctures</span> cause the body to send <span className="font-bold">more nutrients</span> to heal, triggering a <span className="font-bold">natural repair response that speeds up hair regeneration</span>, with clinical studies confirming hair growth <span className="font-bold">up to 5x faster</span>.
+                    The <span className="font-bold">tiny punctures</span> trigger the body’s natural healing process, directing <span className="font-bold">more nutrients</span> to the affected areas <span className="font-bold">accelerating regeneration</span>. Clinical studies have shown that this process can lead to hair growth <span className="font-bold">up to 5x faster</span>.
                   </p>
                 </div>
                 <div className="relative">
@@ -818,13 +816,13 @@ export default function Page() {
                       <h4 className="text-lg font-bold text-gray-900 mb-4">Study</h4>
                       <div className="space-y-3 text-sm text-gray-700">
                         <p className="italic">
-                          &ldquo;It doesn&apos;t matter how strong your formula is if it never reaches the problem.&rdquo; – is the conclusion of the several new studies world renowned trichologist and dermatologists conducted.
+                        A peer-reviewed study in the Journal of Dermatological Science reveals that micro-needles induce controlled micro-injuries to the scalp, prompting the body’s natural wound-healing response.
                         </p>
                         <p>
-                          A study published in the Journal of Trichology and Cosmetology confirms that micro-needles enable deeper absorption, surpassing conventional hair loss treatments.
+                        This process enhances blood flow, delivering more nutrients to hair follicles while stimulating the production of key growth factors like VEGF (Vascular Endothelial Growth Factor), which is essential for follicle regeneration.
                         </p>
                         <p>
-                          This advanced delivery system is proven to neutralize DHT buildup, supply essential nutrients, and reactivate dormant follicles—making it significantly more effective than traditional solutions.
+                          
                         </p>
                       </div>
                     </div>
@@ -851,12 +849,12 @@ export default function Page() {
           <div className="text-center space-y-4">
             {/* Main Headline */}
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              Maximum Results with Minimal Effort
+              Simple, Effective, Proven Results
             </h2>
             
             {/* Introductory Paragraph */}
             <p className="text-xl text-gray-600">
-              No complicated steps. No long routines. Just real results.
+            Achieve maximum results without the hassle.
             </p>
             
             {/* Three Steps with Checkmarks */}
@@ -866,7 +864,7 @@ export default function Page() {
                   <span className="text-white font-bold text-lg">✔</span>
                 </div>
                 <span className="text-lg text-gray-700 leading-relaxed">
-                  Load the formula into the micro-infusion device—no prep, no mess.
+                Simply load the formula into the micro-infusion device—no prep, no mess.
                 </span>
               </div>
               
@@ -875,7 +873,7 @@ export default function Page() {
                   <span className="text-white font-bold text-lg">✔</span>
                 </div>
                 <span className="text-lg text-gray-700 leading-relaxed">
-                  Gently stamp the micro-infusion device onto thinning areas. Takes less than <span className="font-bold">1 minute</span> and feels like lightly tapping your nail on your skin, <span className="font-bold">completely painless</span>. That&apos;s it. Let it absorb and go about your day.
+                Gently stamp the device onto thinning areas. It takes less than <span className="font-bold">1 minute</span> and feels like a light tap, <span className="font-bold">completely painless</span>. That’s it. Let it absorb, then get on with your day.
                 </span>
               </div>
               
@@ -884,14 +882,15 @@ export default function Page() {
                   <span className="text-white font-bold text-lg">✔</span>
                 </div>
                 <span className="text-lg text-gray-700 leading-relaxed">
-                  See results in as little as 1 week, with remarkable growth in just 8-10 weeks.
+                Experience visible results in just 1 week, with remarkable growth in 8-10 weeks.
+                This system is designed for men who want real regrowth—without the hassle.
                 </span>
               </div>
             </div>
             
             {/* Concluding Paragraph */}
             <p className="text-lg text-gray-600">
-              This system is engineered for <span className="font-bold">real</span> men who want <span className="font-bold">real</span> regrowth without the hassle.
+              Built for <span className="font-bold">real</span> men who want <span className="font-bold">real results</span> without the complicated routines.
             </p>
             
             {/* Central Product Image */}
@@ -917,11 +916,11 @@ export default function Page() {
             {/* Top Section - Headline and Benefits */}
             <div className="space-y-2">
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                The Only Hair Treatment You&apos;ll Ever Need
+                The Ultimate Solution for Hair Regrowth
               </h2>
               
               <p className="text-lg text-gray-700">
-                22,731+ customers use Onefix Labs daily!
+                55,981+ customers Rely on OneFix Labs Every Day!
               </p>
               
               {/* Benefits List */}
@@ -931,7 +930,7 @@ export default function Page() {
                     <span className="text-white font-bold text-lg">✔</span>
                   </div>
                   <span className="text-lg text-gray-700 leading-relaxed">
-                    Fills in bald patches for a <span className="font-bold">thicker, fuller</span> look
+                    Fills in bald patches for a <span className="font-bold">fuller, denser</span> hairline
                   </span>
                 </div>
                 
@@ -940,17 +939,7 @@ export default function Page() {
                     <span className="text-white font-bold text-lg">✔</span>
                   </div>
                   <span className="text-lg text-gray-700 leading-relaxed">
-                    Restores receding hairline to its <span className="font-bold">full potential</span>
-                  </span>
-                </div>
-                
-                <div className="flex items-start space-x-4">
-                  <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white font-bold text-lg">✔</span>
-                  </div>
-                  <span className="text-white font-bold text-lg">✔</span>
-                  <span className="text-lg text-gray-700 leading-relaxed">
-                    Stops hair loss and promotes <span className="font-bold">drastic hair regrowth</span>
+                    Restore your hairline to its <span className="font-bold">natural shape and thickness</span>
                   </span>
                 </div>
                 
@@ -959,7 +948,7 @@ export default function Page() {
                     <span className="text-white font-bold text-lg">✔</span>
                   </div>
                   <span className="text-lg text-gray-700 leading-relaxed">
-                    <span className="font-bold">No side effects</span> - Pure natural blend formulated and developed in the US.
+                    Stops hair loss while promoting <span className="font-bold">noticeable regrowth</span>
                   </span>
                 </div>
                 
@@ -968,7 +957,7 @@ export default function Page() {
                     <span className="text-white font-bold text-lg">✔</span>
                   </div>
                   <span className="text-lg text-gray-700 leading-relaxed">
-                    <span className="font-bold">Painless</span> and takes <span className="font-bold">1 minute</span> to apply
+                    <span className="font-bold">Made in the US</span> - with a safe natural formula and no side effects.
                   </span>
                 </div>
                 
@@ -977,7 +966,7 @@ export default function Page() {
                     <span className="text-white font-bold text-lg">✔</span>
                   </div>
                   <span className="text-lg text-gray-700 leading-relaxed">
-                    <span className="font-bold">Long-lasting</span> results
+                    <span className="font-bold">Fast,</span> painless <span className="font-bold">and simple -</span> Just 1 minute a day
                   </span>
                 </div>
                 
@@ -986,7 +975,16 @@ export default function Page() {
                     <span className="text-white font-bold text-lg">✔</span>
                   </div>
                   <span className="text-lg text-gray-700 leading-relaxed">
-                    Backed by a <span className="font-bold">120-Day Growth Money-Back Guarantee</span>
+                    <span className="font-bold">Enjoy Long-Term Results</span> that you can rely on
+                  </span>
+                </div>
+                
+                <div className="flex items-start space-x-4">
+                  <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-white font-bold text-lg">✔</span>
+                  </div>
+                  <span className="text-lg text-gray-700 leading-relaxed">
+                  Full Satisfaction of your money back - <span className="font-bold">120-Day Money-Back Guarantee</span>
                   </span>
                 </div>
               </div>
@@ -1035,7 +1033,7 @@ export default function Page() {
                         <p className="text-green-600 text-sm">Microneedle Infusion Solution</p>
                         <div className="mt-3 text-xs text-green-500">
                           <p>Recommended solution</p>
-                          <p>Two vials included</p>
+                          <p>Eight vials included</p>
                         </div>
                       </div>
                     </div>
@@ -1067,11 +1065,12 @@ export default function Page() {
           <div className="text-center space-y-2">
             {/* Main Headline */}
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              The Best Part? You Don&apos;t Have to Decide Now! Try It Risk-FREE for 120 Days.
+              No Pressure – Try It Risk-Free for 120 days. See the results before making any final decision. 
+
             </h2>
             
             {/* Main Content Area */}
-            <div className="grid lg:grid-cols-2 gap-16 items-center mt-4">
+            <div className="grid lg:grid-cols-2 gap-0 items-center mt-4">
               {/* Left Column - Before/After Image with Guarantee Badge */}
               <div className="relative">
                 <div className="relative">
@@ -1086,39 +1085,32 @@ export default function Page() {
               </div>
               
               {/* Right Column - Guarantee Explanation */}
-              <div className="space-y-3 text-left">
+              <div className="space-y-3 text-left -ml-4">
                 <h3 className="text-2xl font-bold text-gray-900">
-                  Here&apos;s the deal:
+                  The Deal is Simple:
                 </h3>
                 
                 <div className="space-y-1">
                   <p className="text-lg text-gray-700 leading-tight">
-                    We&apos;re so confident in OneFix™ that we don&apos;t want you to spend a dime until you&apos;re 100% sure it works for you.
+                  We believe in OneFix™ so much that we won’t charge you a dime until you're 100% sure it works for you.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-tight">
-                    <span className="font-bold">That&apos;s why we offer a 120-day, no-questions-asked guarantee.</span>
+                    <span className="font-bold">With our 120-Day Money-Back Guarantee, you have nothing to lose.</span>
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-tight">
-                    If you don&apos;t see the results you expect, we&apos;ll issue a full refund—no hassle, no risk.
+                  If you don’t experience the results you’re expecting, we’ll refund your purchase—no questions, no hassle.
                   </p>
                   
                   <p className="text-lg text-gray-700 leading-tight">
-                    Simply put, you only pay if it delivers real, life-changing results. And based on our track record, we&apos;re certain it will.
+                  You only pay if it works, and we’re certain it will based on the incredible results we’ve seen.
                   </p>
                 </div>
               </div>
             </div>
             
-            {/* Product Benefits Callout */}
-            <div className="mt-8">
-              <div className="bg-gray-100 rounded-lg p-8 max-w-2xl mx-auto text-center">
-                <p className="text-2xl text-gray-900">
-                  Fuller and <span className="font-bold">thicker</span> looking hair in less than <span className="font-bold">4 weeks</span>
-                </p>
-              </div>
-            </div>
+
             
             {/* Product Image - ONEFIX™ System */}
             <div className="mt-8">
@@ -1201,7 +1193,7 @@ export default function Page() {
                 </svg>
               </div>
               <p className="text-white mb-1">Satisfied Customers</p>
-              <p className="text-2xl font-bold text-white">108,271+</p>
+              <p className="text-2xl font-bold text-white">55,981+</p>
             </div>
             
             {/* 5 Star Reviews */}
@@ -1212,7 +1204,7 @@ export default function Page() {
                 </svg>
               </div>
               <p className="text-white mb-1">5 Star Reviews</p>
-              <p className="text-2xl font-bold text-white">27,872+</p>
+              <p className="text-2xl font-bold text-white">14,988+</p>
             </div>
           </div>
           
@@ -1220,11 +1212,11 @@ export default function Page() {
           <div className="grid md:grid-cols-2 gap-8 mb-12 pb-8 border-b border-white">
             {/* Links */}
             <div className="space-y-3">
-              <a href="#" className="block text-white hover:text-gray-300 transition-colors duration-200">Contact Us</a>
-              <a href="#" className="block text-white hover:text-gray-300 transition-colors duration-200">Privacy Policy</a>
-              <a href="#" className="block text-white hover:text-gray-300 transition-colors duration-200">Terms and Conditions</a>
-              <a href="#" className="block text-white hover:text-gray-300 transition-colors duration-200">Returns and Refunds Policy</a>
-              <a href="#" className="block text-white hover:text-gray-300 transition-colors duration-200">Shipping Policy</a>
+              <a href="https://www.onefixlabs.com/policies/contact-information" target="_blank" rel="noopener noreferrer" className="block text-white hover:text-gray-300 transition-colors duration-200">Contact Us</a>
+              <a href="https://www.onefixlabs.com/policies/privacy-policy" target="_blank" rel="noopener noreferrer" className="block text-white hover:text-gray-300 transition-colors duration-200">Privacy Policy</a>
+              <a href="https://www.onefixlabs.com/policies/terms-of-service" target="_blank" rel="noopener noreferrer" className="block text-white hover:text-gray-300 transition-colors duration-200">Terms and Conditions</a>
+              <a href="https://www.onefixlabs.com/policies/refund-policy" target="_blank" rel="noopener noreferrer" className="block text-white hover:text-gray-300 transition-colors duration-200">Returns and Refunds Policy</a>
+              <a href="https://www.onefixlabs.com/products/onefix%E2%84%A2-advanced-micro-infusion-hair-regrowth-kit?variant=55476048822607" target="_blank" rel="noopener noreferrer" className="block text-white hover:text-gray-300 transition-colors duration-200">Shipping Policy</a>
             </div>
             
             {/* Company Branding */}
