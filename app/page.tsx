@@ -12,18 +12,18 @@ export default function Page() {
       {/* Header Banner - Dark Blue */}
       <header className="bg-blue-900 text-white py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col sm:flex-row items-center justify-between space-y-2 sm:space-y-0">
             {/* Left - Logo Only */}
             <div className="flex items-center">
               <img 
                 src="/images/logowhite.png" 
                 alt="ONEFIX LABS Logo" 
-                className="h-32 w-auto"
+                className="h-20 sm:h-32 w-auto"
               />
             </div>
             
             {/* Center - Promotional Offer */}
-            <div className="text-2xl font-bold">
+            <div className="text-lg sm:text-2xl font-bold text-center">
               Up to 70% off!
             </div>
             
@@ -32,7 +32,7 @@ export default function Page() {
               href="https://www.onefixlabs.com/products/onefix%E2%84%A2-advanced-micro-infusion-hair-regrowth-kit?variant=55476048822607" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-yellow-400 hover:bg-yellow-300 text-black font-semibold px-6 py-3 rounded-lg transition-colors duration-200 inline-block"
+              className="bg-yellow-400 hover:bg-yellow-300 text-black font-semibold px-4 sm:px-6 py-2 sm:py-3 rounded-lg transition-colors duration-200 inline-block text-sm sm:text-base"
             >
               Try OneFix Today
             </a>
