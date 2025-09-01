@@ -48,7 +48,7 @@ export default function Page() {
             {/* Left Column - Text Content */}
             <div className="space-y-2 sm:space-y-6">
               {/* Question/Category */}
-              <div className="text-lg font-medium text-gray-700">
+              <div className="text-lg font-medium text-gray-700 mt-2">
                 ARE YOU LOSING HAIR?
               </div>
               
