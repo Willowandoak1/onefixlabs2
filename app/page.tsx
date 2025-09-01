@@ -751,9 +751,9 @@ export default function Page() {
       </section>
 
       {/* Maximum Results with Minimal Effort Section */}
-      <section className="py-20 bg-white">
+      <section className="py-8 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-8">
+          <div className="text-center space-y-4">
             {/* Main Headline */}
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
               Maximum Results with Minimal Effort
@@ -765,7 +765,7 @@ export default function Page() {
             </p>
             
             {/* Three Steps with Checkmarks */}
-            <div className="max-w-4xl mx-auto space-y-6 text-left">
+            <div className="max-w-4xl mx-auto space-y-3 text-left">
               <div className="flex items-start space-x-4">
                 <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <span className="text-white font-bold text-lg">✔</span>
@@ -800,7 +800,7 @@ export default function Page() {
             </p>
             
             {/* Central Product Image */}
-            <div className="mt-12">
+            <div className="mt-6">
               <div className="relative max-w-4xl mx-auto">
                 <img 
                   src="/images/UGC1.png" 
@@ -816,11 +816,11 @@ export default function Page() {
       </section>
 
       {/* Benefits and Product Comparison Section */}
-      <section className="py-2 bg-white">
+      <section className="py-0 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-4">
+          <div className="text-center space-y-1">
             {/* Top Section - Headline and Benefits */}
-            <div className="space-y-6">
+            <div className="space-y-2">
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
                 The Only Hair Treatment You&apos;ll Ever Need
               </h2>
@@ -830,7 +830,7 @@ export default function Page() {
               </p>
               
               {/* Benefits List */}
-              <div className="max-w-4xl mx-auto space-y-4 text-left">
+              <div className="max-w-4xl mx-auto space-y-1 text-left">
                 <div className="flex items-start space-x-4">
                   <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <span className="text-white font-bold text-lg">✔</span>
@@ -898,7 +898,7 @@ export default function Page() {
             </div>
             
             {/* Middle Section - Single Image */}
-            <div className="mt-12">
+            <div className="mt-3">
               <div className="relative max-w-4xl mx-auto">
                 <img 
                   src="/images/compare1.png" 
@@ -909,7 +909,7 @@ export default function Page() {
             </div>
             
             {/* Bottom Section - Product Comparison */}
-            <div className="mt-12">
+            <div className="mt-3">
               <div className="relative max-w-5xl mx-auto">
                 <div className="grid grid-cols-2 gap-8">
                   {/* Competitors - Red X */}
