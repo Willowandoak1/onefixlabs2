@@ -626,11 +626,11 @@ export default function Page() {
       </section>
 
       {/* Enhanced 3 Scientific Innovations Section with Images */}
-      <section className="py-20 bg-white">
+      <section className="py-8 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-8">
+          <div className="text-center space-y-4">
             {/* Main Header */}
-            <div className="mb-16">
+            <div className="mb-6">
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">
                 Get Thicker, Attractive Hair Fast
               </h2>
