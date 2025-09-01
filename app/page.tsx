@@ -16,7 +16,7 @@ export default function Page() {
             {/* Left - Logo Only */}
             <div className="flex items-center">
               <img 
-                src="/images/logowhite.png" 
+                src="/images/whitelogo.png" 
                 alt="ONEFIX LABS Logo" 
                 className="h-10 sm:h-12 w-auto"
               />
