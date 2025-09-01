@@ -1047,9 +1047,14 @@ export default function Page() {
         
         {/* Bottom CTA Button */}
         <div className="mt-8 mb-12 text-center">
-          <button className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-4 px-12 rounded-lg text-lg uppercase tracking-wide transition-colors duration-200">
+          <a 
+            href="https://www.onefixlabs.com/products/onefix%E2%84%A2-advanced-micro-infusion-hair-regrowth-kit?variant=55476048822607" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-4 px-12 rounded-lg text-lg uppercase tracking-wide transition-colors duration-200 inline-block"
+          >
             TRY TODAY
-          </button>
+          </a>
         </div>
       </section>
 
