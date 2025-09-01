@@ -958,7 +958,7 @@ export default function Page() {
       <section className="py-0 bg-white -mt-4">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Top Banner */}
-          <div className="bg-amber-600 text-white py-3 text-center mb-6">
+          <div className="bg-amber-600 text-white py-3 text-center mb-6 mt-12">
             <p className="text-lg font-bold uppercase tracking-wide">
               TRY TODAY
             </p>
