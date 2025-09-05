@@ -110,7 +110,6 @@ export default function Page() {
               <div className="relative w-96 h-96">
                 <video 
                   src="/images/UGC2.mp4" 
-                  alt="Man holding ALPHA hair regrowth solution" 
                   className="w-full h-full object-cover rounded-lg shadow-lg"
                   autoPlay
                   loop
